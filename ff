@@ -1,0 +1,30 @@
+r 1d28d2c :feat: mise en place de l'architecture et de l'ensemble des modèles métiers  
+r 7cfbc70 :feat: ajout des premières vérifications internes sur les pièces d'identité
+r 5e7345b :feat: ajout de gateway pour l'appel du service ANTS, ajout de tests unitaires 
+r a2323aa :feat: ajout de la fonctionnalité génération du CSV retour, ébauche du controller
+r 8ab5361 :feat: ajout du controller finalisé :style: correction des warnings de nommage
+r cb73f3d :test: controller
+f a660de7 creation du premier test controller
+f 1644a08 creation du premier test controlle
+r 3dd56b0 :refactor: modification de la valeur retour par le controller en une liste de results
+r fa9398d :test: MAJ des tests unitaires de GenererFichierRetour avec nouvelles valeurs de retours
+r 4deea32 :refactor: correction du renvoie TYPETITRE dans checkConformitePiece
+r 1b8672f :feat: création du @ControllerAdvice, création de MockMvc pour test du cas XML sans justificatif
+r fccc07e :test: ajout du test avec 1 piece etrangere, test où les pieces fournies ne sont pas vérifiable
+f 32132d0 Ajout de l'erreur d'authent dans @ControllerAdvice, a voir comment la gérer pour éviter les dépendances cycliques
+r a7c8c62 :fix: ajout de la gestion d'erreur d'authentification à ANTS dans le controller quand PieceStatut égal ErreurAuthent
+r 5e68cb4 :refactor: gestion des exceptions et nommage explicite
+r cd06df9 :test: MAJ des assertions sur les tests d'intégration 
+r de60cf4 :test: ajout d'un test d'intégration en cas d'erreur de verification sur Appel ANTS, retour d'une exception 504
+f e35e36a AJout d'un test d'intégration en cas d'erreur de verification sur Appel ANTS, retour d'une exception 504
+r b6ce246 :docs: ajout de swagger
+r 87860c2 :feat: ajout de la création d'un fichier si n'existe pas 
+r fa719c4 :refactor: nettoyage de problèmes dus au wording
+r 5eff1cf :fix: correction du build
+f 7df5c9f fix : correction des mocks de test
+f eef54c3 fix : correction de l'assertion d'un test du controller
+f 332ea05 fix : correction build
+f a4f185b fix : correction build
+r da09ad6 :feat: nouvelle gestion des erreurs avec Zalando
+r f474b2f :fix: correctif des commentaires de la PR et du build
+f f6099ce (fix): correction pour build
