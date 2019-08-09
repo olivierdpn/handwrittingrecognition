@@ -50,4 +50,4 @@ def predict():
 if __name__ == "__main__":
     #load model
     model = keras.models.load_model('model.h5')
-    app.run(debug=True) 
+    app.run() 
