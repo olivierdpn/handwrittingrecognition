@@ -1,7 +1,7 @@
 Flask==1.1.1
 gmpy==1.17
 gunicorn==19.9.0
-joblib==0.10.4.dev0
+joblib
 matplotlib==2.0.0
 mpmath==0.19
 numpy==1.12.1
