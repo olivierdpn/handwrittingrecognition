@@ -7,6 +7,6 @@ mpmath==0.19
 numpy==1.12.1
 openpyxl==2.3.0
 pandas==0.19.2
-Pillow==4.0.0
+Pillow==6.2.0
 
 
